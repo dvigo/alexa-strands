@@ -1,0 +1,73 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "bank application",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "ConsultIntent",
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "Yes question {query}",
+            "I have a question  {query} ",
+            "Do you know {query}",
+            "I want to know {query} ",
+            "question {query}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "endMonthIntent",
+          "slots": [],
+          "samples": [
+            "help me make it",
+            "help me make it to the end of the month",
+            "Financials end of the month",
+            "End of the month"
+          ]
+        },
+        {
+          "name": "alertIntent",
+          "slots": [],
+          "samples": [
+            "Do I have enough for the end of the month",
+            "Do I have enough",
+            "Will I make it to the end of the month",
+            "will I make it"
+          ]
+        },
+        {
+          "name": "transactionIntent",
+          "slots": [],
+          "samples": [
+            "Tell me more about my transactions",
+            "Transactions",
+            "Which are my transactions",
+            "Tell me my transactions"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "12"
+}
